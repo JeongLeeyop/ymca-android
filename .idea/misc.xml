@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable-v24/selector_sign_edittext.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/ic_main_logout.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/ic_sign_checkbox_false.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/ic_sign_checkbox_true.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/selector_sign_checkbox.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_main_layer.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/shape_sign_btn.xml" value="0.1895" />
+        <entry key="app/src/main/res/drawable/shape_sign_edittext.xml" value="0.1895" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1724137931034483" />
+        <entry key="app/src/main/res/layout/activity_sign.xml" value="0.335" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.235" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
