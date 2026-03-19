@@ -1,11 +1,9 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// 프로젝트 루트의 build.gradle
 plugins {
-    id 'com.android.application' version '7.1.0' apply false
-    id 'com.android.library' version '7.1.0' apply false
-    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
-    id 'com.google.gms.google-services' version '4.3.0' apply false
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
+    // 7.1.0 -> 8.2.0 이상으로 업그레이드 권장 (안드로이드 스튜디오 최신 버전 필요)
+    id 'com.android.application' version '8.2.2' apply false
+    id 'com.android.library' version '8.2.2' apply false
+    // Kotlin 버전도 1.9.0 이상으로 올려야 API 35와 호환됩니다.
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+    id 'com.google.gms.google-services' version '4.4.1' apply false
 }

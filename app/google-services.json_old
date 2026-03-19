@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321160487830",
+    "project_id": "busanymca-93259",
+    "storage_bucket": "busanymca-93259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321160487830:android:55e2139e7c3cfd5bfdf3b7",
+        "android_client_info": {
+          "package_name": "com.hanwol.ymcastudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321160487830-e086d8duka1ae4mvonmt6fksqjjb5f78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCShFesy9UFeYkbasUluSWeV05yOvuD3T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321160487830-e086d8duka1ae4mvonmt6fksqjjb5f78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
