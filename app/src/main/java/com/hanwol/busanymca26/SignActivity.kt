@@ -162,10 +162,6 @@ class SignActivity : AppCompatActivity(), View.OnTouchListener {
         }
     }
 
-    override fun onResume() {
-        super.onResume()
-    }
-
     override fun onTouch(p0: View?, p1: MotionEvent?): Boolean {
         when (p0?.id) {
             R.id.rl_sign_body -> {
