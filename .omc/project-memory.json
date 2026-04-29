@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777506197587,
+  "projectRoot": "/Users/devyop/Downloads/YMCA/YMCAstudent_android",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Java/Kotlin",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "build.gradle"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "gradle",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 6,
+      "lastAccessed": 1777506197576,
+      "keyFiles": [
+        "build.gradle",
+        "google-services.json",
+        "google-services.json_old",
+        "proguard-rules.pro"
+      ]
+    },
+    "gradle": {
+      "path": "gradle",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1777506197576,
+      "keyFiles": []
+    },
+    "app/build": {
+      "path": "app/build",
+      "purpose": "Build output",
+      "fileCount": 2,
+      "lastAccessed": 1777506197576,
+      "keyFiles": [
+        "gmpAppId.txt"
+      ]
+    },
+    "app/src": {
+      "path": "app/src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1777506197576,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "app/src/main/res/layout/activity_main.xml",
+      "accessCount": 4,
+      "lastAccessed": 1777506469963,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/hanwol/busanymca26/SignActivity.kt",
+      "accessCount": 3,
+      "lastAccessed": 1777506461348,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_sign.xml",
+      "accessCount": 2,
+      "lastAccessed": 1777506250783,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "accessCount": 2,
+      "lastAccessed": 1777506251495,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "accessCount": 2,
+      "lastAccessed": 1777506251939,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "accessCount": 2,
+      "lastAccessed": 1777506252476,
+      "type": "file"
+    },
+    {
+      "path": "settings.gradle",
+      "accessCount": 1,
+      "lastAccessed": 1777506240079,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777506241514,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/hanwol/busanymca26/App.kt",
+      "accessCount": 1,
+      "lastAccessed": 1777506242849,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/hanwol/busanymca26/MainActivity.kt",
+      "accessCount": 1,
+      "lastAccessed": 1777506243729,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/hanwol/busanymca26/PreferenceManager.kt",
+      "accessCount": 1,
+      "lastAccessed": 1777506244873,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/hanwol/busanymca26/UserData.kt",
+      "accessCount": 1,
+      "lastAccessed": 1777506245660,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "accessCount": 1,
+      "lastAccessed": 1777506252939,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
