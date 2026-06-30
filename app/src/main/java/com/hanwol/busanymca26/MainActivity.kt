@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
         ibMainLogOut?.setOnClickListener {
             AlertDialog.Builder(this)
                 .setTitle("로그아웃")
-                .setMessage("정말 로그아웃하고 자동로그인 기능을 해제할까요?")
+                .setMessage("정말 로그아웃하고 자동로그인 기능을 해제하시겠습니까?")
                 .setPositiveButton("OK") { dialog, _ ->
                     App.prefs.autoLogin = false
                     App.prefs.userName = ""
@@ -80,6 +80,8 @@ class MainActivity : AppCompatActivity() {
                     UserData.engBirth = ""
                     UserData.korValidity = ""
                     UserData.engValidity = ""
+                    UserData.korRound = ""
+                    UserData.engRound = ""
                     UserData.signState = false
 
                     Toast.makeText(this, "로그아웃되었습니다.\n다시 로그인 해 주세요.", Toast.LENGTH_SHORT).show()

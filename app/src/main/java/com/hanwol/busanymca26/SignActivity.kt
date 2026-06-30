@@ -58,6 +58,11 @@ class SignActivity : AppCompatActivity(), View.OnTouchListener {
     }
 
     private fun onGetUserData(strName: String, strPhone: String) {
+        if (strName.isEmpty() || strPhone.isEmpty()) return
+        if (!strPhone.all { it.isDigit() }) {
+            Toast.makeText(this, "전화번호를 올바르게 입력해 주세요.", Toast.LENGTH_SHORT).show()
+            return
+        }
         CoroutineScope(Dispatchers.IO).launch {
             firebase.getReference(strPhone).addValueEventListener(object : ValueEventListener {
                 @SuppressLint("SimpleDateFormat")

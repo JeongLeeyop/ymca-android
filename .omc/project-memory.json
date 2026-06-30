@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1777506197587,
+  "lastScanned": 1781629742306,
   "projectRoot": "/Users/devyop/Downloads/YMCA/YMCAstudent_android",
   "techStack": {
     "languages": [
@@ -44,7 +44,7 @@
       "path": "app",
       "purpose": "Application code",
       "fileCount": 6,
-      "lastAccessed": 1777506197576,
+      "lastAccessed": 1781629742286,
       "keyFiles": [
         "build.gradle",
         "google-services.json",
@@ -56,14 +56,14 @@
       "path": "gradle",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1777506197576,
+      "lastAccessed": 1781629742286,
       "keyFiles": []
     },
     "app/build": {
       "path": "app/build",
       "purpose": "Build output",
       "fileCount": 2,
-      "lastAccessed": 1777506197576,
+      "lastAccessed": 1781629742287,
       "keyFiles": [
         "gmpAppId.txt"
       ]
@@ -72,7 +72,7 @@
       "path": "app/src",
       "purpose": "Source code",
       "fileCount": 1,
-      "lastAccessed": 1777506197576,
+      "lastAccessed": 1781629742287,
       "keyFiles": []
     }
   },
